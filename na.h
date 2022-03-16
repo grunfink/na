@@ -1,4 +1,4 @@
-/* na - A tool for assymmetric encryption of files by grunfink - public domain */
+/* na - A tool for asymmetric encryption of files by grunfink - public domain */
 
 #include <stdio.h>
 

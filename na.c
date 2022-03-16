@@ -1,4 +1,4 @@
-/* na - A tool for assymmetric encryption of files by grunfink - public domain */
+/* na - A tool for asymmetric encryption of files by grunfink - public domain */
 
 #include <string.h>
 
@@ -7,10 +7,10 @@
 
 int usage(char *argv0)
 {
-    printf("%s %s - An assymmetric encryption tool by grunfink - public domain\n\n",
+    printf("%s %s - An asymmetric encryption tool by grunfink - public domain\n\n",
         argv0, na_version());
 
-    printf("Encrypts/decrypts a stream of data using a pair of assymmetric keys.\n\n");
+    printf("Encrypts/decrypts a stream of data using a pair of asymmetric keys.\n\n");
 
     printf("Usage: \n\n");
 

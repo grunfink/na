@@ -1,6 +1,6 @@
-na - An assymmetric encryption tool by grunfink - public domain
+na - An asymmetric encryption tool by grunfink - public domain
 
-Encrypts/decrypts a stream of data using a pair of assymmetric keys.
+Encrypts/decrypts a stream of data using a pair of asymmetric keys.
 Usage:
 
   na -G -p pubkey -s seckey     Generate key pairs
