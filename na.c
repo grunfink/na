@@ -7,20 +7,20 @@
 
 int usage(char *argv0)
 {
-    printf("%s %s - An asymmetric encryption tool by grunfink - public domain\n\n",
+    fprintf(stderr, "%s %s - An asymmetric encryption tool by grunfink - public domain\n\n",
         argv0, na_version());
 
-    printf("Encrypts/decrypts a stream of data using a pair of asymmetric keys.\n\n");
+    fprintf(stderr, "Encrypts/decrypts a stream of data using a pair of asymmetric keys.\n\n");
 
-    printf("Usage: \n\n");
+    fprintf(stderr, "Usage: \n\n");
 
-    printf("  %s -G -p pubkey -s seckey     Generate key pairs\n", argv0);
-    printf("  %s -R -p pubkey -s seckey     Regenerate pubkey from seckey\n", argv0);
-    printf("  %s -E -p pubkey               Encrypt STDIN to STDOUT\n", argv0);
-    printf("  %s -D -s seckey               Decrypt STDIN to STDOUT\n", argv0);
+    fprintf(stderr, "  %s -G -p pubkey -s seckey     Generate key pairs\n", argv0);
+    fprintf(stderr, "  %s -R -p pubkey -s seckey     Regenerate pubkey from seckey\n", argv0);
+    fprintf(stderr, "  %s -E -p pubkey               Encrypt STDIN to STDOUT\n", argv0);
+    fprintf(stderr, "  %s -D -s seckey               Decrypt STDIN to STDOUT\n", argv0);
 
-    printf("\n");
-    printf("Crypto engine: %s\n\n", na_info());
+    fprintf(stderr, "\n");
+    fprintf(stderr, "Crypto engine: %s\n\n", na_info());
 
     return 1;
 }
